@@ -35,12 +35,12 @@ The python FastAPI offers two endpoints:
 
 | Parameter    | Default | Type    | Description                                                                                                              |
 |--------------| ---- |---------|--------------------------------------------------------------------------------------------------------------------------|
-| bounds       | False | boolean | Allows visible images edges                                                                                              |
-| side_spacing | 0.72 | number  | Distance of eyes to the edge <br> 0 = eyes on the edge <br> 0.9998 = eyes centered                                       |
+| bounds       | False | boolean | allows visible images edges                                                                                              |
+| side_spacing | 0.72 | number  | distance of eyes to the edge <br> 0 = eyes on the edge <br> 0.9998 = eyes centered                                       |
 | top_spacing  | 0.4 | number  | vertical position of the eyes <br> 0 = eyes on the upper edge <br> 0.9998 = eyes on the lower edge                       |
-| width        | 512 | integer | Width of the final image                                                                                              |
-| height       | 640 | integer | Height of the final image                                                                                                 |
-| mask_method  | multiclass | string  | Method used for background removal <br>multiclass = more accurate, slower <br> selfie = faster, less accurate |
+| width        | 512 | integer | width of the final image                                                                                              |
+| height       | 640 | integer | height of the final image                                                                                                 |
+| mask_method  | multiclass | string  | method used for background removal <br>multiclass = more accurate, slower <br> selfie = faster, less accurate |
 
 
 ## System components / Frameworks
